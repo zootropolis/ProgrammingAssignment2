@@ -22,4 +22,4 @@ cacheSolve <- function(x, ...) {
     m <- solve(data, ...)               ## run the solve function on data (calculate inverse of the matrix), store it in m
     x$setinverse(m)                     ## store that result in the setinverse element of x (so it won't need to be calulated again)
     m                                   ## return m, which now contains the inverse of the matrix
-}
+} 
